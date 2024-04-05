@@ -13,7 +13,7 @@ import pickle
 
 
 
-model = pickle.load(open('sentiment_mh.pkl', 'rb'))
+model = pickle.load(open('modelmodel.pkl', 'rb'))
 
 
 st.title("Predict Sentiment of Movie Review")
